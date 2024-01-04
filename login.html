@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN</title>
+    <style>
+
+body {
+            margin: 0;
+        }
+       .nav {
+        background-color: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+       .nav ul{
+        display: flex;
+        list-style-type: none;
+       }
+       .nav li a{
+        text-decoration: none;
+        font-size: larger;
+        padding-right: 100px;
+        display: inline;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+       }
+
+       .login {
+        padding-top: 70px;
+        padding-bottom: 100px;
+        padding-left: 85px;
+        background-color: rgb(0, 0, 0);
+        align-items: center;
+        margin-top: 100px;
+        margin-left: 550px;
+        margin-right: 520px;
+        border-radius: 22px;
+        color: beige;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+       }
+       .username {
+        border-color: white;
+        background:none;
+        color: white;
+        border-radius: 2px;
+        width: 300px;
+        height: 50px;
+        
+       }
+       .password {
+
+        border-color: white;
+        background:none;
+        color: white;
+        border-radius: 2px;
+        width: 300px;
+        height: 50px;
+       }
+       .button {
+        text-align: center;
+        padding: 20px 20px 20px 20px;
+        border: none;
+        margin-top: 10px;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: white;
+        border-radius: 40px;
+        width: 200px;
+        margin-left: 50px;
+
+       }
+       .forgot-password{
+       text-decoration: none;
+       margin-left: 75px;
+       }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div>
+                <b style="color: white; font-size: 25px; padding-left: 10px;">BUSINESSWEB</b>
+            </div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="SERVICES.html">SERVICES</a></li>
+                <li><a href="singup.html">SINGUP</a></li>
+                <li><a href="login.html">SINGIN</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="login">
+        <h1>SIGN IN</h1>
+        <form action="#">
+            <div class="form-group">
+                <label for="username">Username:</label> <br>
+                <input type="text" class="username" name="username" placeholder="Enter username">
+            </div>
+            <div class="form-group" style="margin-top: 10px;">
+                <label for="password">Password:</label><br>
+                <input type="password" class="password" name="password" placeholder="Enter password">
+            </div>
+            <button type="submit" class="button">Login</button> <br>
+            <a href="#" class="forgot-password" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: white;">Forgot password?</a>
+        </form>
+    </div>
+    <br><br><br>
+    <footer style="background-color: #000000; color: white; padding: 20px;">
+        <div style="text-align: center;">
+            <h3>Contact Us</h3>
+            <p>Email: info@businessweb.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+        </div>
+        <div style="text-align: center; margin-top: 20px;">
+            <h3>Connect With Us</h3>
+            <a href="#" target="_blank" style="color: white; margin-right: 10px;">Facebook</a>
+            <a href="#" target="_blank" style="color: white; margin-right: 10px;">Twitter</a>
+            <a href="#" target="_blank" style="color: white;">LinkedIn</a>
+        </div>
+        <div style="text-align: center; margin-top: 20px;">
+            <p>&copy; 2023 BusinessWeb. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
